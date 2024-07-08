@@ -27,7 +27,7 @@ dayNigth.addEventListener('click', () => {
     document.body.classList.toggle('dark');
 });
 window.addEventListener('load', () => {
-    if (document.body.classList.contais('dark')) {
+    if (document.body.classList.contains('dark')) {
         dayNigth.querySelector('i').classList.add('fa-sun');
     } else {
         dayNigth.querySelector('i').classList.add('fa-moon');
